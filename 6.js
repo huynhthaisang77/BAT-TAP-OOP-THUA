@@ -9,10 +9,5 @@ class BankAccount {
     this.enoughMoney = enoughMoney;
     this.balance = balance;
   }
-  check() {
-    try {
-      if (this.balance > this.enoughMoney) {
-      }
-    } catch (error) {}
-  }
+
 }
