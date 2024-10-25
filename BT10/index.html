@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý sinh viên</title>
+  </head>
+  <body>
+    <h1>Quản lý sách</h1>
+
+    <!-- Form thêm sinh viên -->
+    <form id="addForm">
+      <h3>Thêm tên sách</h3>
+      <input type="text" id="addName" placeholder="Tên sách" />
+
+      <button id="btn" onclick="use.them()">Thêm</button>
+    </form>
+
+    <!-- Form xóa sinh viên -->
+    <form id="deleteForm">
+      <h3>Xóa sách</h3>
+      <input type="text" id="deleteId" />
+      <button type="submit">Xóa</button>
+    </form>
+
+    <!-- Form tìm sinh viên -->
+    <form id="searchForm">
+      <h3>Tìm sách</h3>
+      <input type="text" id="searchId" ed />
+      <button type="submit">Tìm</button>
+    </form>
+
+    <!-- Kết quả tìm kiếm -->
+    <div id="searchResult"></div>
+    <script src="../11.js"></script>
+  </body>
+</html>
