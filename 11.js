@@ -4,15 +4,16 @@ const elements = {};
 const elementIds = ["btn"];
 elementIds.forEach((item) => {
   const element = document.getElementById(item);
-  elements[item] = element;
+  elements = element;
 });
 class Library {
   constructor() {
     this.books = [];
   }
   them() {
-    elements.btn.addEventListener("click", () => {
-      this.books = this.books;
+    const submit = document.getElementById("btn");
+    submit.addEventListener("click", () => {
+      console.log("kkkkk");
     });
   }
   xoa(id) {
